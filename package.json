@@ -5,7 +5,7 @@
     "license": "Zlib",
     "scripts": {
         "build": "tsc",
-        "watch": "tsc --watch",
+        "clean": "rm dist/**",
         "start": "node dist/main.js",
         "dev": "tsnd --respawn --rs src/main.ts"
     },
